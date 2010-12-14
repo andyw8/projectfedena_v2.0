@@ -128,7 +128,7 @@ ActiveRecord::Schema.define(:version => 20100731055437) do
     t.string   "fax"
     t.string   "photo_filename"
     t.string   "photo_content_type"
-    t.binary   "photo_data",             :limit => 16777215
+    t.binary   "photo_data"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -401,7 +401,7 @@ ActiveRecord::Schema.define(:version => 20100731055437) do
     t.string   "fax"
     t.string   "photo_filename"
     t.string   "photo_content_type"
-    t.binary   "photo_data",             :limit => 16777215
+    t.binary   "photo_data"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
