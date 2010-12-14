@@ -193,7 +193,7 @@ ActiveRecord::Schema.define(:version => 20100731055437) do
     t.string   "email"
     t.string   "photo_filename"
     t.string   "photo_content_type"
-    t.binary   "photo_data",           :limit => 16777215
+    t.binary   "photo_data"
     t.string   "status_description"
     t.boolean  "is_active",                                :default => true
     t.boolean  "is_deleted",                               :default => false
@@ -727,7 +727,7 @@ ActiveRecord::Schema.define(:version => 20100731055437) do
     t.boolean  "is_sms_enabled",                           :default => true
     t.string   "photo_filename"
     t.string   "photo_content_type"
-    t.binary   "photo_data",           :limit => 16777215
+    t.binary   "photo_data"
     t.string   "status_description"
     t.boolean  "is_active",                                :default => true
     t.boolean  "is_deleted",                               :default => false
